@@ -1,0 +1,382 @@
+@import url("font-awesome.min.css");
+
+body, html { overflow-x:hidden; }
+
+body {
+    background-color: #ffffff;
+    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-size: 16px;
+	
+	font-weight: 300; 
+	font-style: normal; 
+	-webkit-font-smoothing: antialiased; 
+	-webkit-text-size-adjust: 100%;
+	padding-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.height30 {
+	height: 30px;
+}
+
+.top-bar {
+    min-height: 40px;
+    background-color:#eeeeee;
+}
+
+.top-menu {
+    min-height:110px;
+    background-color:#ffffff;
+    z-index: 5000;
+    width:100%;
+}
+
+.top-menu .navbar-toggle {
+    margin-top: 38px;
+}
+
+.top-menu .navbar-brand {
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+/* ------ Carousel ----- */
+
+#carousel {
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom:0;
+    margin-left:20%;
+    margin-right:20%;
+    width:60%;
+}
+
+#carousel .carousel-caption {
+    z-index: 10;
+}
+
+
+#carousel .carousel-inner > .item > img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    #carousel .carousel-caption p {
+        margin-bottom: 20px;
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    #carousel .carousel-caption {
+        padding-bottom: 140px;
+        right: 20%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    #carousel .carousel-caption {
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #carousel {
+        background-color: transparent;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow-x: hidden;
+        margin-bottom:0;
+       
+    }
+}
+
+/* ------ End of Carousel ----- */
+
+/* ------ Welcome & Slogan ------ */
+.welcome {
+    border-bottom: 1px solid #cccccc;
+    min-height: 230px;
+}
+
+.slogan {
+    font-family:  'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 42px;
+    margin: 60px 0;
+    color: #333333;
+}
+
+.facts {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.facts-item {
+    font-family:  'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.facts-item p {
+    font-weight: lighter; 
+    text-align: justify; 
+    margin-top: 25px;
+    font-size: 14px;
+    color: #929292;
+}
+
+.subheader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #e67e22;
+}
+
+
+.btn-accent {
+    background-color: #77a8bd;
+    border-bottom:2px solid #628a9c;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-accent:hover, .btn-accent:focus, .btn-accent:active, .btn-accent.active, .open .dropdown-toggle.btn-accent {
+    background-color: #77a8bd;
+    color:#ffffff;
+}
+
+.nav > li > a {
+    padding: 10px 20px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #77a8bd;
+    color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #77a8bd;
+    color:#fff;
+}
+
+
+.nav > li > a {
+    color: #929292;
+}
+.navbar-default {
+    background-color:#fff;
+    border:none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #77a8bd;
+    color:#fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.facts-item-header {
+    
+    font-weight: bold;
+    display: inline-block;
+}
+
+.header-accent{
+    background-color:#77a8bd;
+    min-width: 298px;
+    height: 67px;
+    color: #fff; 
+
+}
+
+hr {
+    border: 1px solid #c0c0c0; 
+	float: left;
+	width: 40%; 
+}
+
+.line-header {
+   
+    margin-bottom:80px;
+}
+
+.txt_darkgrey {
+    color: #333333;
+}
+
+.txt_accent {
+    color: #7ca7bf;
+}
+
+.txt_slogan {
+    font-size:14px; 
+    color:#929292;
+}
+
+.quote_txt {
+	border-left:2px solid #ffffff; 
+	min-height:160px;
+}
+
+.quote_person {
+	color: #FFFF33; 
+	font-size: 14px;
+	float: right;
+}
+
+
+.footer {
+	border-top: 2px solid #cccccc; 
+	margin-top: 20px;
+}
+
+.footer_container {
+	margin-top:60px; 
+	margin-bottom:20px;
+}
+
+.footer_bottom_content {
+	margin: auto;
+	margin-bottom: 30px;
+	font-size: 14px;
+	color:#333333;
+}
+
+
+
+.quote {
+    background-color: #7ca7bf;
+    min-height:200px;
+    font-family:  'Open Sans', sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    margin-top:100px;
+}
+
+
+.btn_loadmore {
+	margin-top:30px; 
+	margin-bottom:80px;
+}
+
+
+
+@media (min-width:991px) and (max-width:1200px) {
+   
+
+    .service-item-header {
+        padding: 16px 10px 20px;
+    }
+
+   
+	
+}
+
+
+@media (max-width:991px) 
+	
+    .btn-read-more {
+        float:right;
+        margin-bottom :40px; 
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  } 
+}
+
+@media (max-width: 768px) {
+   
+    .btn-read-more {
+            float:right;
+            margin-bottom :40px; 
+      }
+}
+	
+	
+}
+
+.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+		
+	
+}
+
+.icon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+}
+
+.icon > .label {
+		display: none;
+}
+
+.footer ul {
+	list-style: none;
+	margin-top: 30px;
+	font-size: 24px;
+
+}
+
+.footer .icons li {
+	padding: 10px 20px;
+    display: inline;
+}
+
+
+
+.footer .icons a {
+    
+    color: #333;
+    
+}
+
+.footer .icons a:hover,
+.footer .icons a:focus {
+    color: #7ca7bf;
+    
+}
+	
+
+
+
